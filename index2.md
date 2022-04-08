@@ -12,6 +12,7 @@
 3. 3
 
 --- Horizontal Rule
+
 `Inline code`
 ```
 block

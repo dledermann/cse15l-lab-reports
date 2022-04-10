@@ -53,9 +53,9 @@ Having to type your password into the terminal everytime you want to log into th
 
 >$ ssh-keygen
 
->Enter file in which to save the key (/Users/|user-name|/.ssh/id_rsa): /Users/|user-name|/.ssh/id_rsa
+>Enter file in which to save the key (/Users/user-name/.ssh/id_rsa): /Users/user-name/.ssh/id_rsa
 
-Whhen you are asked to enter the file to save the key to, you are entering the part above after the colon, but you are replacing |user-name| with the name of the current user. You will be asked if you want a passphrase and type nothing and press enter twice to avoid needing a passphrase. You will then be given a key fingerprint and a the key's randomart image. The entire process will look something like:
+Whhen you are asked to enter the file to save the key to, you are entering the part above after the colon, but you are replacing user-name with the name of the current user. You will be asked if you want a passphrase and type nothing and press enter twice to avoid needing a passphrase. You will then be given a key fingerprint and a the key's randomart image. The entire process will look something like:
 
 ![image](Screen Shot 2022-04-08 at 5.49.14 PM.png)
 
@@ -65,9 +65,9 @@ This made a private key and a public key on your computer in your .ssh directory
 
 Log out of the server after that, then on the client side you want type in the terminal: 
 
-> $ scp /Users/|user-name|/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+> $ scp /Users/user-name/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
-You are replacing |user-name| with you computer user name and you are replacing zz after 22 with the last letter of your course-specific account. This will copy the file with your id from the client onto the server and you should now be able to log onto the server without needing your password.
+You are replacing user-name with you computer user name and you are replacing zz after 22 with the last letter of your course-specific account. This will copy the file with your id from the client onto the server and you should now be able to log onto the server without needing your password.
 
 
 

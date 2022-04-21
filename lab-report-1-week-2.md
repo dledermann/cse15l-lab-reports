@@ -21,9 +21,10 @@ Once you have a screen like this, you are now connected to the ieng6 computer, w
 ## Trying Some Commands
 
 You can try running some commands, such as 
+
 ```
-> cd
-> ls
+$ cd
+$ ls
 ```
 
 Running the commands will look something like this: 
@@ -33,7 +34,7 @@ Running the commands will look something like this:
 cd and some directory will go to that directory in the server and ls will list the files of the current server directory you are in. To log out of the server you can either press Ctrl + D on your computer, or type 
 
 ```
-exit 
+$ exit 
 ```
 
 in the terminal.

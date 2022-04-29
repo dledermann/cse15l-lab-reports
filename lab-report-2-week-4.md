@@ -4,7 +4,7 @@
 
 ![image](Screen Shot 2022-04-22 at 4.56.30 PM.png)
 
-[Failure-Inducing Test File](markdown-parser/test-file2.md)
+[Failure-Inducing Test File](https://github.com/dledermann/markdown-parser/blob/main/test-file2.md)
 
 ![image](Screen Shot 2022-04-22 at 5.16.16 PM.png)
 
@@ -14,7 +14,7 @@ The relationship between the bug, the symptom, and the failure-inducing input is
 
 ![image](Screen Shot 2022-04-22 at 4.56.44 PM.png)
 
-[Failure-Inducing Test File](markdown-parser/test-file7.md)
+[Failure-Inducing Test File](https://github.com/dledermann/markdown-parser/blob/main/test-file7.md)
 
 ![image](Screen Shot 2022-04-22 at 5.18.15 PM.png)
 
@@ -24,7 +24,7 @@ The relationship between the bug, the symptom, and the failure-inducing input is
 
 ![image](Screen Shot 2022-04-22 at 4.57.10 PM.png)
 
-[Failure-Inducing Test File](markdown-parser/test-file3.md)
+[Failure-Inducing Test File](https://github.com/dledermann/markdown-parser/blob/main/test-file3.md)
 
 ![image](Screen Shot 2022-04-22 at 5.18.41 PM.png)
 

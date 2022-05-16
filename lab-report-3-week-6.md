@@ -37,7 +37,7 @@ private key stored on my computer. Private key was made with the public
 key in lab-report-1-week-2 using the command
 
 ```
-ssh-keygen
+$ ssh-keygen
 ```
 
 Using ssh-keygen on the server, I made a public key on the server,

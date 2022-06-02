@@ -20,7 +20,7 @@ Expected output:
 
 ![image](Screen Shot 2022-06-01 at 8.14.37 PM.png)
 
-The expected output should be the link "/url". My program aws wrong, because it found no link and the given program found the correct output. The problem with my program is that if there are any other characters on before the link, it doesn't count the link as valid. If I change this so that it checks if there is any special character before the link instead of any character, this problem would be fixed.
+The expected output should be the link "/url", which was found using commonmark.js. My program aws wrong, because it found no link and the given program found the correct output. The problem with my program is that if there are any other characters on before the link, it doesn't count the link as valid. If I change this so that it checks if there is any special character before the link instead of any character, this problem would be fixed.
 
 Code to be fixed:
 
@@ -46,7 +46,7 @@ Expected output:
 
 ![image](Screen Shot 2022-06-01 at 8.14.35 PM.png)
 
-The expected output should be no link. My program got the link "/my uri", and the given program got no link, which is the correct output. The problem with my program is that it doesn't check if there are any spaces in the link, which would fix the problem. To fix this problem I could add something that gets the link that would be added, before it is added, and check if there are any spaces within the code. 
+The expected output should be no link, which was found using commonmark.js. My program got the link "/my uri", and the given program got no link, which is the correct output. The problem with my program is that it doesn't check if there are any spaces in the link, which would fix the problem. To fix this problem I could add something that gets the link that would be added, before it is added, and check if there are any spaces within the code. 
 
 Code to be fixed: 
 
